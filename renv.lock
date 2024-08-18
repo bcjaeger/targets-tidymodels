@@ -1675,13 +1675,13 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.0.2",
+      "Version": "2.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "6d3bef2e305f55c705c674653c7d7d3d"
+      "Hash": "c62edf62de70cadf40553e10c739049d"
     },
     "parallelly": {
       "Package": "parallelly",

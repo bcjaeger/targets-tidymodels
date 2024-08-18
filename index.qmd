@@ -11,6 +11,7 @@ format:
   html:
     df-print: paged
     toc: true
+    embed-resources: true
 ---
 
 I attended `posit::conf(2024)` and *loved* the "What’s new in tidymodels?" session as well as the talk given by Charlie Gao and Will Landau, which demonstrated how to speed up `targets` pipelines with the help of `mirai` and `crew`. Two big news items came from these talks:
@@ -20,6 +21,10 @@ I attended `posit::conf(2024)` and *loved* the "What’s new in tidymodels?" ses
 2. `targets` now supports using `mirai` as a back-end job scheduler, providing some incredible speed upgrades for parallel workers.
 
 This blog post will show how to combine the survival framework of `tidymodels` with `mirai`'s incredible parallel processing using `targets`.
+
+## Reproducing this post
+
+This blog post is based on a `targets` pipeline that you can clone and run yourself. 
 
 ## Primary ciliary cholangitis (PBC) data
 

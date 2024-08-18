@@ -179,6 +179,8 @@ tar_fig <- tar_target(
   }
 )
 
+tar_post <- tar_render(post, path = "index.qmd")
+
 # Define the list of targets for the pipeline
 list(
   tar_data_pbc,
@@ -186,5 +188,6 @@ list(
   tar_recipe,
   tar_model_spec,
   tar_wflow,
-  tar_fig
+  tar_fig,
+  tar_post
 )
